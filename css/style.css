@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 255, 255, 0.233);
+    height: 40px ;
+    padding: 3px 0;
+}
+.header-group{
+    display: flex;
+    align-items: center;
+    transition: 0.4s ease;
+    list-style: none;
+    
+}
+.header-group h2{
+    color: blue;
+}
+.header-side{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin: 10px 0;
+    margin-bottom: 0;
+}
+.header-side li{
+    padding: 0 10px;
+    text-align: center;
+    align-items: center;
+}
+.header-group li:hover{
+    color:  rgba(0, 94, 255, 0.567);
+    font-family: cursive;
+}
+.list{
+    padding: 0 19px;
+    display: flex;
+}
+.list li{
+    padding: 0 10px;
+}
+.active{
+    background-color: rgba(0, 94, 255, 0.567);
+    padding-top: 20px;
+    /* height: 40px; */
+    /* margin: ; */
+}
+.active:hover{
+    background-color: rgba(0, 94, 255, 0.567);
+    /* padding: 10px 10px; */
+}
+.top-icon{
+    padding: 0 10px;
+}
+.home{
+    background-image: url('/asset/wash.jpg');
+    background-position: absolute;
+    background-size: cover;
+    min-height: 80vh;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    padding: 10px 0;
+    margin: 20px ;
+}
+.exp-btn{
+    padding: 10px 10px;
+    background-color:transparent;
+    border-radius: 9%;
+}
+.exp-btn:hover{
+    color: white;
+    background-color:  rgba(0, 255, 255, 0.233);
+}
+.home h1{
+    padding: 120px 0;
+}
+.home p{
+    margin-top: -9%;
+}
+.last{
+    text-align: center;
+    padding: 20px 10px;
+}
+.last h1{
+    font-family: cursive;
+}
+.row-group{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.row{
+    text-align: center;
+    padding: 0 30px;
+}
+.row h3{
+    padding: 10px 0;
+}
+.icon{
+    padding: 10px 10px;
+    border-radius: 50%;
+    background-color: rgba(0, 81, 255, 0.407);
+}
